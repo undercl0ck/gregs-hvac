@@ -15,8 +15,7 @@ export function Contact() {
         <h1>Request service</h1>
         <p>
           Tell us what's going on and we'll confirm a two-hour arrival window.
-          Emergencies? Skip the form and call{" "}
-          <a href="tel:+15550124747">(555) 012-4747</a> — someone answers 24/7.
+          Emergencies get priority — answered same day when we can.
         </p>
       </div>
 
@@ -27,8 +26,7 @@ export function Contact() {
               <h2>Request received</h2>
               <p>
                 Thanks — a dispatcher will confirm your appointment window
-                shortly. If this is an emergency, call{" "}
-                <a href="tel:+15550124747">(555) 012-4747</a> now.
+                shortly. Emergencies are answered same day when we can.
               </p>
               <p className="muted text-sm" style={{ marginBottom: 0 }}>
                 (This is a static demo — no request was actually sent.)
@@ -104,16 +102,8 @@ export function Contact() {
             <h3>Reach us directly</h3>
             <dl style={{ margin: 0 }}>
               <div className="stat-row">
-                <dt>Office</dt>
-                <dd>
-                  <a href="tel:+15550123900">(555) 012-3900</a>
-                </dd>
-              </div>
-              <div className="stat-row">
-                <dt>24/7 emergency</dt>
-                <dd>
-                  <a href="tel:+15550124747">(555) 012-4747</a>
-                </dd>
+                <dt>Phone</dt>
+                <dd>Call for service — number coming soon</dd>
               </div>
               <div className="stat-row">
                 <dt>Email</dt>
@@ -124,8 +114,8 @@ export function Contact() {
                 </dd>
               </div>
               <div className="stat-row">
-                <dt>Shop</dt>
-                <dd>412 Alder Works Rd, Ridgeline Heights</dd>
+                <dt>Service area</dt>
+                <dd>Washtenaw County and nearby Michigan towns</dd>
               </div>
               <div className="stat-row">
                 <dt>Hours</dt>

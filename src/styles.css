@@ -473,7 +473,7 @@ button:focus-visible {
   display: block;
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--color-accent);
+  color: var(--color-primary); /* step numbers are labels — no copper on text */
   margin-bottom: var(--space-xs);
 }
 

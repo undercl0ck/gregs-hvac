@@ -71,15 +71,17 @@ export function About() {
             <hr className="copper-rule" />
             <h2>Service area</h2>
             <p className="muted">
-              Based in Ridgeline Heights, serving the whole metro: Parkdale,
-              Cedar Flats, Old Mill District, Northgate, and everywhere in
-              between. Outside the map? Call — we probably still come to you.
+              Serving Washtenaw County and nearby Michigan towns. Outside the
+              area? Ask — we may still come to you.
             </p>
           </div>
           <div className="cta-band">
             <div>
               <h2>Want us on your side of town?</h2>
-              <p>Booking same-week appointments across the metro.</p>
+              <p>
+                Booking same-week appointments across Washtenaw County and
+                nearby Michigan towns.
+              </p>
             </div>
             <Link to="/contact" className="btn btn-primary">
               Request service

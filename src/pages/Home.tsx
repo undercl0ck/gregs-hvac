@@ -40,11 +40,10 @@ export function Home() {
         <div className="container hero-grid">
           <div>
             <span className="hero-kicker">Heating · Cooling · Air quality</span>
-            <h1>Comfort you can set your watch to.</h1>
+            <h1>Heat that holds through a Michigan winter.</h1>
             <p className="hero-sub">
-              Greg's HVAC has kept metro-area homes warm in January and cool in
-              July since 1998. Straight answers, upfront pricing, and
-              technicians who clean up after themselves.
+              Greg's HVAC — install, repair, and tune-ups across Michigan.
+              Emergency calls answered same day when we can.
             </p>
             {/* CTA floor: this is the ONLY primary button on Home. */}
             <Link to="/contact" className="btn btn-primary">
@@ -148,7 +147,10 @@ export function Home() {
           <div className="cta-band">
             <div>
               <h2>No heat? No cool? No problem.</h2>
-              <p>Same-week appointments and true 24/7 emergency response.</p>
+              <p>
+                Same-week appointments. Emergency calls answered same day when
+                we can.
+              </p>
             </div>
             <Link to="/contact" className="btn btn-primary">
               Request service

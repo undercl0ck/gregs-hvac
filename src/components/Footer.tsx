@@ -13,11 +13,11 @@ export function Footer() {
             </span>
             <p>
               Family-owned heating, cooling, and air quality service. Licensed,
-              bonded, and insured. Serving the metro area since 1998.
+              bonded, and insured. Serving Washtenaw County and nearby Michigan
+              towns.
             </p>
             <p>
-              24/7 emergency line:{" "}
-              <a href="tel:+15550124747">(555) 012-4747</a>
+              Emergencies: <Link to="/contact">Call for service</Link>
             </p>
           </div>
           <div>
@@ -42,8 +42,8 @@ export function Footer() {
             <ul className="footer-links">
               <li>Mon–Fri · 7am–6pm</li>
               <li>Saturday · 8am–2pm</li>
-              <li>Sunday · Emergency only</li>
-              <li>Emergency · 24/7</li>
+              <li>Sunday · Emergencies only</li>
+              <li>Emergencies · Same-day when we can</li>
             </ul>
           </div>
         </div>
