@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Greg's HVAC — Redirecting…</title>
+    <script>
+      // SPA fallback for GitHub Pages: convert a path-style URL like
+      // /gregs-hvac/services into the hash route /gregs-hvac/#/services.
+      (function () {
+        var base = "/gregs-hvac/";
+        var path = window.location.pathname;
+        var route = path.indexOf(base) === 0 ? path.slice(base.length) : "";
+        window.location.replace(
+          base + "#/" + route + window.location.search
+        );
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <a href="/gregs-hvac/">Continue to Greg's HVAC</a>
+    </noscript>
+  </body>
+</html>
