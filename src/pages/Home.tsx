@@ -129,7 +129,7 @@ export function Home() {
               Greg's crew was here by 10:30 and had heat back before midnight.
               The invoice matched the quote to the penny.&rdquo;
             </p>
-            <cite>— Marisol T., Ridgeline Heights</cite>
+            <cite>— Marisol T., Washtenaw County</cite>
           </blockquote>
           <blockquote className="quote">
             <p>
@@ -137,7 +137,7 @@ export function Home() {
               up inside the window they give you. Maintenance plan pays for
               itself.&rdquo;
             </p>
-            <cite>— Owen K., Parkdale</cite>
+            <cite>— Owen K., Washtenaw County</cite>
           </blockquote>
         </div>
       </section>
