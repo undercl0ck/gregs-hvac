@@ -57,7 +57,7 @@ export function Home() {
                 <ClockIcon size={18} /> Same-week appointments
               </span>
               <span>
-                <CheckIcon size={18} /> 4.9★ from 600+ local reviews
+                <CheckIcon size={18} /> Local techs. Straight quotes.
               </span>
             </div>
           </div>
